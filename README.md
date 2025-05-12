@@ -1,5 +1,8 @@
 ## AN ANALYSIS ON INSURANCE CLAIMS FOR MM INSURANCE COMPANY 
 
+![1003220864](https://github.com/user-attachments/assets/f23ea698-fade-40ec-a415-7e69fc10d34e)
+
+![1003220862](https://github.com/user-attachments/assets/69ba1b77-d210-478a-8d1f-4db734c717f6)
 
 ### INTRODUCTION 
 
@@ -50,166 +53,196 @@ In order to prepare our dataset for analysis, some step were included to clean t
 
 ### ANALYSIS QUESTIONS AND INSIGHTS
 
-#### How does claim frequency vary across different age groups, genders, and marital statuses? Are there specific demographics more likely to file frequent claims?
+How does claim frequency vary across different age groups, genders, and marital statuses? Are there specific demographics more likely to file frequent claims?
 
-- Claim Frequency by Age Group: 
+Claim Frequency by Age Group: 
 
-Younger drivers (22-29) have the highest claim frequency (>0.52), possibly due to inexperience.
-
-The (30-39) age group has the lowest frequency (<0.51)
-
-The (60-69) group’s low frequency may reflect limited driving, but those who do drive may still pose risks.
-
-- Claim Frequency by Marital Status:
-
-Claim frequency is fairly evenly distributed across marital statuses, with separated  individuals having a slightly higher share (26%).
-
-The even distribution suggests marital status has a minimal impact on claim frequency.
-
-Separated individuals may have higher frequency due to shared vehicles or more dependents driving.
-
-- Claim Frequency by Gender: 
-
-Females have a slightly higher claim frequency (0.515) than males (0.505).
-
-The difference is minimal, suggesting gender has a limited impact on claim frequency.
-
-Females may drive more frequently or in higher-risk areas, contributing to the slight increase.
+![1003220851](https://github.com/user-attachments/assets/f209a45f-d0df-4aa5-a33c-911e613aab44)
 
 
+- Younger drivers (22-29) have the highest claim frequency (>0.52), possibly due to inexperience.
 
-- Is there a correlation between the level of education and the average claim amount? Do individuals with higher education levels have higher or lower claim amounts?
+- The (30-39) age group has the lowest frequency (<0.51)
 
-Bachelors and masters holders have the highest claim amount (>$50K), while PhD graduates have the lowest (<$50K).
+- The (60-69) group’s low frequency may reflect limited driving, but those who do drive may still pose risks.
 
-Higher education levels correlates with higher claim amounts, with the exception of PhD holders maybe due to usage of less expensive cars 
+Claim Frequency by Marital Status:
 
-High School graduates may have lower claim amounts due to less expensive vehicles or lower coverage levels
+![1003208452](https://github.com/user-attachments/assets/8703c12a-493d-44cc-8c92-b0b05a12a50d)
+
+- Claim frequency is fairly evenly distributed across marital statuses, with separated  individuals having a slightly higher share (26%).
+
+- The even distribution suggests marital status has a minimal impact on claim frequency.
+
+- Separated individuals may have higher frequency due to shared vehicles or more dependents driving.
+
+Claim Frequency by Gender: 
+
+![1003208639](https://github.com/user-attachments/assets/da9442d8-5f3b-4575-ad36-55f6d680b4e0)
+
+- Females have a slightly higher claim frequency (0.515) than males (0.505).
+
+- The difference is minimal, suggesting gender has a limited impact on claim frequency.
+
+- Females may drive more frequently or in higher risk areas, contributing to the slight increase.
 
 
 
-- How does the type of coverage zone (e.g., Rural, Urban, Highly Urban) affect claim frequency? Are people in urban areas more likely to make claims than those in rural areas?
+Is there a correlation between the level of education and the average claim amount? Do individuals with higher education levels have higher or lower claim amounts?
 
-Suburban areas have the highest claim frequency, likely due to higher traffic density and accident risks.
-
-Highly Rural areas have the lowest claim frequency, possibly due to less traffic and lower accident rates.
-
-Urban and highly urban areas show a slightly higher claim frequency, indicating a correlation between population density and claim likelihood.
-
-Rural areas, while lower, still have a significant frequency, suggesting other factors like road conditions or driver behavior may contribute.
+![1003220863](https://github.com/user-attachments/assets/b3193c4d-a0fc-431a-b5fe-f67cfdb0fe56)
 
 
+- Bachelors and masters holders have the highest claim amount (>$50K), while PhD graduates have the lowest (<$50K).
 
-- What is the relationship between household income levels and claim amounts or frequency? Do higher income individuals file fewer claims or have lower claim amounts?
+- Higher education levels correlates with higher claim amounts, with the exception of PhD holders maybe due to usage of less expensive cars 
 
-($100k-$200k) higher income level have lower claim frequency 
-
-While ($50k-$100k) income level have higher frequency claims 
-
-This indicates higher income individuals have fewer frequency claims 
-
-
-- How does car use (Private vs. Commercial) impact the average claim amount and frequency? Are commercial car users more likely to have higher claims?
-
-Private and commercial car use shows almost equal claim amount with very minimal difference 
-
-This indicates the car type has no effect on the claim amount 
-
-
-- Does having kids who drive influence claim frequency or amount? Are there significant differences in claim behavior between households with and without kids driving?
-
-Claim frequency of (0.512) where kids are not driving vs frequency of (0.506) where kids are driving 
-
-The indicates a significant difference in households with kids driving and not driving and households where kids are driving have minimal claim frequency compared to households without kids driving 
-
-Indicating kids driving have minimal impact on claims frequency 
-
-
-- Which car makes (e.g., Acura, Nissan, Ford) have the highest and lowest average claim amounts? Are certain brands associated with higher insurance claims?
-
-Hillman vehicles have the highest average claim amount ($54K), while Rambler vehicles have the lowest ($16K).
-
-Hillman vehicles may be more expensive to repair or replace, leading to higher claim amounts.
-
-Rambler vehicles may be older or less costly, resulting in lower claim amounts.
-
-
-- How does the car’s model year relate to claim amount and frequency? Are older cars associated with more frequent claims or higher claim amounts?
-
-Claim frequency fluctuates over the years, with notable peaks in 1954, 1970, and 1986
-
-Recent years (1990-2010) show a decline in frequency.
-
-Peaks may correspond to economic or social factors (e.g., increased car ownership, road congestion).
-
-The decline in recent years could be due to improved vehicle safety features or stricter regulations.
-
-
-- How does household income relate to the chosen coverage zone? Are higher income individuals more likely to be in highly urban areas, and does this affect their claim amount or frequency?
-
-<$50k income earners are found in highly rural areas with very high claim amounts of over ($50k)
-
-Also income level of $200k - $500k living in highly rural areas also have high claim amounts, this maybe b due to bad roads in this areas and probably theft also 
-
-All income categories earners living in the highly urban areas have the lowest claim amount 
+- High School graduates may have lower claim amounts due to less expensive vehicles or lower coverage levels
 
 
 
-STRATEGIC RECOMMENDATIONS 
+How does the type of coverage zone (e.g., Rural, Urban, Highly Urban) affect claim frequency? Are people in urban areas more likely to make claims than those in rural areas?
+
+![1003220852](https://github.com/user-attachments/assets/1427fa68-4ea8-4814-afc1-50fa28cd4763)
+
+
+- Suburban areas have the highest claim frequency, likely due to higher traffic density and accident risks.
+
+- Highly Rural areas have the lowest claim frequency, possibly due to less traffic and lower accident rates.
+
+- Urban and highly urban areas show a slightly higher claim frequency, indicating a correlation between population density and claim likelihood.
+
+- Rural areas, while lower, still have a significant frequency, suggesting other factors like road conditions or driver behavior may contribute.
+
+
+
+What is the relationship between household income levels and claim amounts or frequency? Do higher income individuals file fewer claims or have lower claim amounts?
+
+![1003208453](https://github.com/user-attachments/assets/2fa3a795-5d1a-4239-9906-956063bd38ef)
+
+
+- ($100k-$200k) higher income level have lower claim frequency 
+
+- While ($50k-$100k) income level have higher frequency claims 
+
+- This indicates higher income individuals have fewer frequency claims 
+
+
+How does car use (Private vs. Commercial) impact the average claim amount and frequency? Are commercial car users more likely to have higher claims?
+
+![1003220865](https://github.com/user-attachments/assets/9e5cd3ae-f39d-4058-81c4-255b0bc1e6ba)
+
+
+- Private and commercial car use shows almost equal claim amount with very minimal difference 
+
+- This indicates the car type has no effect on the claim amount 
+
+
+Does having kids who drive influence claim frequency or amount? Are there significant differences in claim behavior between households with and without kids driving?
+
+![1003208446](https://github.com/user-attachments/assets/f5c1f4aa-2d18-42cb-b11e-0d4a9c0a3629)
+
+- Claim frequency of (0.512) where kids are not driving vs frequency of (0.506) where kids are driving 
+
+- The indicates a significant difference in households with kids driving and not driving and households where kids are driving have minimal claim frequency compared to households without kids driving 
+
+- Indicating kids driving have minimal impact on claims frequency 
+
+
+Which car makes (e.g., Acura, Nissan, Ford) have the highest and lowest average claim amounts? Are certain brands associated with higher insurance claims?
+
+![1003208447](https://github.com/user-attachments/assets/6f45e120-7b1d-4eb1-8a95-0e2a65674368)
+
+
+- Hillman vehicles have the highest average claim amount ($54K), while Rambler vehicles have the lowest ($16K).
+
+- Hillman vehicles may be more expensive to repair or replace, leading to higher claim amounts.
+
+- Rambler vehicles may be older or less costly, resulting in lower claim amounts.
+
+
+How does the car’s model year relate to claim amount and frequency? Are older cars associated with more frequent claims or higher claim amounts?
+
+![1003208449](https://github.com/user-attachments/assets/04c282a2-4efb-456f-af78-2b5be132135d)
+
+
+- Claim frequency fluctuates over the years, with notable peaks in 1954, 1970, and 1986
+
+- Recent years (1990-2010) show a decline in frequency.
+
+- Peaks may correspond to economic or social factors (e.g., increased car ownership, road congestion).
+
+- The decline in recent years could be due to improved vehicle safety features or stricter regulations.
+
+
+How does household income relate to the chosen coverage zone? Are higher income individuals more likely to be in highly urban areas, and does this affect their claim amount or frequency?
+
+![1003208638](https://github.com/user-attachments/assets/6c7b1f80-be88-4427-838c-bf43caf6ef01)
+
+
+- <$50k income earners are found in highly rural areas with very high claim amounts of over ($50k)
+
+- Also income level of $200k - $500k living in highly rural areas also have high claim amounts, this maybe b due to bad roads in this areas and probably theft also 
+
+- All income categories earners living in the highly urban areas have the lowest claim amount 
+
+
+
+### STRATEGIC RECOMMENDATIONS 
 
 Demographic Targeted Pricing
-Raise premiums for young drivers (22-29) due to high claim frequency (>0.52); offer telematics discounts for safe driving.
+- Raise premiums for young drivers (22-29) due to high claim frequency (>0.52); offer telematics discounts for safe driving.
 
-Lower premiums for PhD holders and 30-39 age group with low claim frequency/amounts (<$50K, <0.51).
+- Lower premiums for PhD holders and 30-39 age group with low claim frequency/amounts (<$50K, <0.51).
 
-Slightly increase rates for separated individuals (26% claim share) due to shared vehicle risks.
+- Slightly increase rates for separated individuals (26% claim share) due to shared vehicle risks.
 
 
-Zone-Based Risk Management
+Zone Based Risk Management
 
-Increase premiums in suburban areas (highest claim frequency) and urban zones; lower rates in highly rural areas but add theft/road hazard coverage for high claim amounts (>$50K).
+- Increase premiums in suburban areas (highest claim frequency) and urban zones; lower rates in highly rural areas but add theft/road hazard coverage for high claim amounts (>$50K).
 
-Use telematics in urban/suburban areas to monitor driving and reduce claims.
+- Use telematics in urban/suburban areas to monitor driving and reduce claims.
 
 
 Income and Education Adjustments
 
-Offer discounts for higher income ($100k-$200k) customers with lower claim frequency; promote usage based insurance for middle income ($50k-$100k) with higher frequency.
+- Offer discounts for higher income ($100k-$200k) customers with lower claim frequency; promote usage based insurance for middle income ($50k-$100k) with higher frequency.
 
-Raise premiums for bachelor’s/master’s holders (claims >$50K); maintain moderate rates for high school graduates.
+- Raise premiums for bachelor’s/master’s holders (claims >$50K); maintain moderate rates for high school graduates.
 
 
 Vehicle Specific Strategies
 
-Increase premiums for Hillman vehicles ($54K claims); discount Rambler vehicles ($16K claims).
+- Increase premiums for Hillman vehicles ($54K claims); discount Rambler vehicles ($16K claims).
 
-Surcharge older models (1954, 1970, 1986) with high claim frequency; discount newer models (1990-2010) with safety features.
+- Surcharge older models (1954, 1970, 1986) with high claim frequency; discount newer models (1990-2010) with safety features.
 
 
 Family and Commercial Policies
 
-Offer family discounts for households with teen drivers (lower frequency: 0.506) enrolled in safe driving programs.
+- Offer family discounts for households with teen drivers (lower frequency: 0.506) enrolled in safe driving programs.
 
-Maintain consistent pricing for private/commercial vehicles; monitor commercial mileage via telematics.
+- Maintain consistent pricing for private/commercial vehicles; monitor commercial mileage via telematics.
 
 
 Marketing and Innovation
 
-Target higher-income, PhD, and rural customers with tailored coverage and safety focused marketing.
+- Target higher-income, PhD, and rural customers with tailored coverage and safety focused marketing.
 
-Expand telematics and predictive analytics to personalize pricing and reduce claim frequency.
+- Expand telematics and predictive analytics to personalize pricing and reduce claim frequency.
 
-Partner with automakers for safety feature discounts and local governments to improve rural roads.
+- Partner with automakers for safety feature discounts and local governments to improve rural roads.
 
 
 Compliance and Ethics
 
-Ensure pricing complies with anti discrimination laws; audit models for bias.
+- Ensure pricing complies with anti discrimination laws; audit models for bias.
 
-Protect telematics data and communicate privacy policies clearly.
+- Protect telematics data and communicate privacy policies clearly.
 
 
 
-CONCLUSION 
+### CONCLUSION 
 
 Optimize pricing for high risk groups (young drivers, suburban residents) and low-risk segments (PhD holders, higher income) using telematics and analytics. Tailor coverage for rural theft/road risks and urban collision needs. Promote safe driving and newer vehicles through discounts and partnerships to reduce claims while ensuring fair, compliant practices.
